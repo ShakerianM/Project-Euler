@@ -1,5 +1,5 @@
 import math
-def Prime(num):
+def Max_Prime(num):
     while num % 2 == 0:
             maxP = 2
             num /= 2
@@ -13,4 +13,4 @@ def Prime(num):
 
 
 num = 600851475143
-print(Prime(num))
+print(Max_Prime(num))
